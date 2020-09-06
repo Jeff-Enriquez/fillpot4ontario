@@ -27,6 +27,7 @@ main {
 
 .endorsed {
   font-size: 14px;
+  line-height: 1em;
   color: rgb(92, 92, 92);
 }
 
@@ -82,7 +83,7 @@ h2 {
 }
 
 li {
-  margin: 20px;
+  margin-top: 20px;
   font-family: 'Arimo', sans-serif;
   font-size: 20px;
   line-height: 28px
@@ -144,6 +145,29 @@ li {
     font-size: 24px;
   }
 
+  .endorsed {
+    font-size: 12px;
+  }
+
+  .experienceContentContainer {
+    margin: 20px 0 0 0;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .experienceContentContainer img {
+    width: 250px;
+    height: 250px;
+  }
+
+  ul {
+    max-width: 400px;
+  }
+
+  li:first-of-type{
+    margin: 10px 0;
+  }
+
   .believe {
     text-align: center;
   }
@@ -162,5 +186,19 @@ li {
   }
   .leftSpacing { 
     margin: 0;
+  }
+}
+
+@media only screen and (max-width: 812px) {
+  p {
+    font-size: 15px;
+    line-height: 28px;
+  }
+  li {
+    font-size: 15px;
+    line-height: 28px;
+  }
+  h2 {
+    font-size: 20px;
   }
 }
