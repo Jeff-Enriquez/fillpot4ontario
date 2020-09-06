@@ -64,6 +64,10 @@ h2 {
   text-align: center;
 }
 
+.about p {
+  margin: 0 20px 30px 20px;
+}
+
 .experience {
   background-color: rgb(222, 233, 235);
   padding: 30px 20px;
@@ -131,12 +135,23 @@ li {
   p {
     font-size: 18px;
   }
+  li {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+
+  .believe {
+    text-align: center;
+  }
+
   .vote h2 {
     text-align: center;
   }
   .voteContentContainer {
     flex-direction: column;
-    margin: 10px 0 20px 0;
+    margin: 20px 0 20px 0;
   }
   .voteContentContainer img {
     margin: 0 0 20px 0;
