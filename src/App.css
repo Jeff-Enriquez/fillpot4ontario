@@ -94,5 +94,29 @@ li {
 }
 
 .believe p {
-  /* text-align: center; */
+  margin: 20px 40px;
+}
+
+.vote {
+  background-color: white;
+}
+
+.vote h2 {
+  padding-top: 30px;
+}
+
+.voteContentContainer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 20px 0px;
+}
+
+.voteContentContainer p {
+  margin-right: 10px;
+}
+
+.voteContentContainer img {
+  width: 450px;
+  height: 300px;
+  margin-left: 10px;
 }

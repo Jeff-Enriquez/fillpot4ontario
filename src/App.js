@@ -34,8 +34,14 @@ function App() {
           <p>Every person should be informed and involved in their community and their government, especially on the local level.  It is time for the City of Ontario to elect a Treasurer with a new perspective and fresh ideas on how our city invests its financial assets and supports businesses and residents.</p>
         </div>
       </section>
-      <section>
-        <p>With your vote, we can stand together and help the city of Ontario continue to grow financially.  We can continue to make this city a place that supports its businesses and its residents.  We can keep Ontario strong!</p>
+      <section className='vote'>
+        <div>
+          <h2>Your Vote</h2>
+          <div className='voteContentContainer'>
+            <p>With your vote, we can stand together and help the city of Ontario continue to grow financially.  We can continue to make this city a place that supports its businesses and its residents.  We can keep Ontario strong!</p>
+            <img src='vote.jpg'/>
+          </div>
+        </div>
       </section>
     </main>
   );
