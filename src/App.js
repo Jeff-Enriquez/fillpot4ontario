@@ -37,9 +37,11 @@ function App() {
       <section className='vote'>
         <div>
           <h2>Your Vote</h2>
-          <div className='voteContentContainer'>
-            <p>With your vote, we can stand together and help the city of Ontario continue to grow financially.  We can continue to make this city a place that supports its businesses and its residents.  We can keep Ontario strong!</p>
-            <img src='vote.jpg'/>
+          <div className='leftSpacing'>
+            <div className='voteContentContainer'>
+              <img src='vote.jpg'/>
+              <p>With your vote, we can stand together and help the city of Ontario continue to grow financially.  We can continue to make this city a place that supports its businesses and its residents.  We can keep Ontario strong!</p>
+            </div>
           </div>
         </div>
       </section>
