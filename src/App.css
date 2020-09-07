@@ -151,6 +151,9 @@ li {
     width: 275px;
     height: 200px;
   }
+  .about p {
+    margin: 0 0 20px 0;
+  }
 }
 
 @media only screen and (max-width: 646px) {
