@@ -66,12 +66,12 @@ h2 {
 }
 
 .about p {
-  margin: 0 20px 30px 20px;
+  margin: 0 0 30px 0;
 }
 
 .experience {
   background-color: rgb(222, 233, 235);
-  padding: 30px 20px;
+  padding: 30px;
   background-image: URL('/stars.jpg');
   background-position: center;
 }
@@ -95,11 +95,11 @@ li {
 }
 
 .believe {
-  padding: 30px 20px;
+  padding: 30px;
 }
 
 .believe p {
-  margin: 20px 40px;
+  margin: 20px 0 20px 40px;
 }
 
 .vote {
@@ -123,7 +123,6 @@ li {
 .voteContentContainer p {
   margin: -8px 0 0 10px;
   text-align: center;
-  max-width: 400px;
 }
 
 .voteContentContainer img {
@@ -132,17 +131,39 @@ li {
   margin-right: 10px;
 }
 
-/* 832 change vote section*/
-
-@media only screen and (max-width: 812px) {
+@media only screen and (max-width: 812px){
   p {
     font-size: 18px;
   }
+
   li {
     font-size: 18px;
+    margin-top: 10px;
   }
   h2 {
     font-size: 24px;
+  }
+  .experienceContentContainer img {
+    width: 250px;
+    height: 250px;
+  }
+  .voteContentContainer img {
+    width: 275px;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 646px) {
+  .about {
+    padding: 0 20px;
+  }
+
+  .experience {
+    padding: 30px 20px 20px 20px;
+  }
+
+  .experience h2 {
+    text-align: center;
   }
 
   .endorsed {
@@ -155,35 +176,49 @@ li {
     align-items: center;
   }
 
-  .experienceContentContainer img {
-    width: 250px;
-    height: 250px;
-  }
-
   ul {
-    max-width: 400px;
+    margin-left: 0;
+    padding-left: 0;
+  }
+  
+  li {
+    margin-left: 20px;
   }
 
   li:first-of-type{
-    margin: 10px 0;
+    margin: 5px 0 5px 20px;
   }
 
   .believe {
     text-align: center;
+    padding: 30px 20px;
+  }
+
+  .believe p {
+    margin: 20px 0;
+  }
+
+  .vote {
+    padding: 30px 20px 20px 20px;
+  }
+
+  .vote p {
+    margin: 0;
   }
 
   .vote h2 {
     text-align: center;
   }
+
   .voteContentContainer {
     flex-direction: column;
     margin: 20px 0 20px 0;
   }
+
   .voteContentContainer img {
-    margin: 0 0 20px 0;
-    width: 300px;
-    height: 200px;
+    margin: 5px 0 20px 0;
   }
+  
   .leftSpacing { 
     margin: 0;
   }
@@ -201,4 +236,32 @@ li {
   h2 {
     font-size: 20px;
   }
+}
+
+@media only screen and (max-width: 700px) {
+  .shadow:before {
+    -moz-box-shadow:inset 0px 0px 15px 15px rgba(255,255,255,1);
+    -webkit-box-shadow:inset 0px 0px 15px 15px rgba(255,255,255,1);
+    box-shadow:inset 0px 0px 15px 15px rgba(255,255,255,1);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .shadow:before {
+    -moz-box-shadow:inset 0px 0px 12px 12px rgba(255,255,255,1);
+    -webkit-box-shadow:inset 0px 0px 12px 12px rgba(255,255,255,1);
+    box-shadow:inset 0px 0px 12px 12px rgba(255,255,255,1);
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .shadow:before {
+    -moz-box-shadow:inset 0px 0px 10px 10px rgba(255,255,255,1);
+    -webkit-box-shadow:inset 0px 0px 10px 10px rgba(255,255,255,1);
+    box-shadow:inset 0px 0px 10px 10px rgba(255,255,255,1);
+  }
+}
+
+@media only screen and (max-width: 430px) {
+
 }
